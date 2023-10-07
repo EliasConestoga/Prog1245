@@ -9,3 +9,31 @@ h2{
     color : #f02;
     font-size : 2em;
 }
+header{
+    background-color : hsl(20, 59%, 50%);
+}
+main{
+    float : left;
+    width : 65vw;
+    background-color : hsl(20, 57%, 64%);
+}
+aside{
+    float : right;
+    width : 25vw;
+    background-color : hsl(128, 18%, 61%);
+}
+footer{
+    clear : both;
+    background-color : hsl(173, 30%, 42%);
+}
+.structural{
+    margin : 10px;
+    padding : 10px;
+    border : 2px solid black;
+}
+#para1{
+    color : rgb(47, 35, 81);
+}
+#para2{
+    color : rgb(122, 18, 18);
+}
