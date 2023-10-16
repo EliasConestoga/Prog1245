@@ -1,0 +1,75 @@
+/* Elias Tsilimidos - 8929740 */
+
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font: 18px Arial, sans-serif;
+    padding: 15px;
+}
+
+header, footer {
+    border: 3px black;
+    border-radius: 5px;
+    padding: 16 px;
+    margin: 10px;
+}
+
+h1, h2 {
+    color:rgb(46, 14, 0)
+    font-varient small-caps;
+}
+
+footer p {
+font-size: 1em;
+color:cornflowerblue;
+}
+
+main {
+    width: 66.66%;
+    padding: 15px;
+}
+
+aside {
+    width: 33.33%;
+    padding: 15 px;
+    
+}
+
+main:after, aside:after {
+    clear: both;
+}
+
+.mainimg {
+    border: 7px solid rgb(111, 134, 0);
+    width: 80%;
+}
+
+figure {
+    width: 50%;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q {
+    font-family: 'Brush Script MT', cursive;
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+aside ul li {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+aside ul > a {
+    text-decoration: none;
+    color: rgb(0, 49, 129);
+}
+
+aside ul a:hover {
+    color: rgb(0, 199, 0)
+}
